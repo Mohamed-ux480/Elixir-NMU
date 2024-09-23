@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نادي تعليمي - الجامعة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>نادي تعليمي في الجامعة</h1>
+            <p>تعلم، تطور، وشارك مهاراتك التقنية</p>
+            <a href="#join" class="cta-button">انضم إلينا</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>من نحن</h2>
+            <p>نحن مجموعة من الطلاب المبدعين المهتمين بتطوير مهارات البرمجة والتكنولوجيا.</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2>الأنشطة والفعاليات</h2>
+            <ul>
+                <li>ورشة عمل البرمجة - 20 أكتوبر</li>
+                <li>مسابقة برمجية - 15 نوفمبر</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2>الدورات التعليمية</h2>
+            <p>دورات لتطوير المهارات التقنية من قبل محترفين.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <form>
+                <input type="text" placeholder="اسمك" required>
+                <input type="email" placeholder="بريدك الإلكتروني" required>
+                <textarea placeholder="رسالتك" required></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 نادي تعليمي - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
